@@ -1,0 +1,46 @@
+{
+    "projects": [
+      {
+        "projectName": "Project 1",
+        "img": [
+          "https://example.com/project1_1.png",
+          "https://example.com/project1_2.png",
+          "https://example.com/project1_3.png"
+        ],
+        "usedTec": ["HTML", "CSS", "JavaScript"],
+        "description": [
+          "A web project showcasing a responsive design with user authentication.",
+          "This project has a clean and modern UI with smooth animations."
+        ],
+        "about": "A responsive web project with user authentication."
+      },
+      {
+        "projectName": "Project 2",
+        "img": [
+          "https://example.com/project2_1.png",
+          "https://example.com/project2_2.png"
+        ],
+        "usedTec": ["React", "Node.js", "MongoDB"],
+        "description": [
+          "A web project with real-time updates and a RESTful API.",
+          "It includes user management features and data visualization."
+        ],
+        "about": "A web project with real-time updates and user management features."
+      },
+      {
+        "projectName": "Project 3",
+        "img": [
+          "https://example.com/project3_1.png",
+          "https://example.com/project3_2.png",
+          "https://example.com/project3_3.png"
+        ],
+        "usedTec": ["Vue.js", "Firebase"],
+        "description": [
+          "A web project featuring social media integration and cloud storage.",
+          "Users can collaborate in real-time and share files securely."
+        ],
+        "about": "A web project with social media integration and real-time collaboration."
+      }
+    ]
+  }
+  
