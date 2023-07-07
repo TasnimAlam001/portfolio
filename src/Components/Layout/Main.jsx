@@ -1,13 +1,14 @@
-import AboutMe from "../Home/AboutMe";
+import AboutMe from "../Home/AboutMe/AboutMe";
 import MyProjects from "../Home/Projects/MyProjects";
 import Skills from "../Home/Skills";
-import Navbar from "../Navbar/Navbar";
+import "./Main.css"
+
 
 
 const Main = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="myPhoto bg-fixed pt-40">
+            
             <AboutMe></AboutMe>
             <Skills></Skills>
             <MyProjects></MyProjects>

@@ -1,46 +1,94 @@
-{
-    "projects": [
-      {
-        "projectName": "Project 1",
-        "img": [
-          "https://example.com/project1_1.png",
-          "https://example.com/project1_2.png",
-          "https://example.com/project1_3.png"
-        ],
-        "usedTec": ["HTML", "CSS", "JavaScript"],
-        "description": [
-          "A web project showcasing a responsive design with user authentication.",
-          "This project has a clean and modern UI with smooth animations."
-        ],
-        "about": "A responsive web project with user authentication."
-      },
-      {
-        "projectName": "Project 2",
-        "img": [
-          "https://example.com/project2_1.png",
-          "https://example.com/project2_2.png"
-        ],
-        "usedTec": ["React", "Node.js", "MongoDB"],
-        "description": [
-          "A web project with real-time updates and a RESTful API.",
-          "It includes user management features and data visualization."
-        ],
-        "about": "A web project with real-time updates and user management features."
-      },
-      {
-        "projectName": "Project 3",
-        "img": [
-          "https://example.com/project3_1.png",
-          "https://example.com/project3_2.png",
-          "https://example.com/project3_3.png"
-        ],
-        "usedTec": ["Vue.js", "Firebase"],
-        "description": [
-          "A web project featuring social media integration and cloud storage.",
-          "Users can collaborate in real-time and share files securely."
-        ],
-        "about": "A web project with social media integration and real-time collaboration."
-      }
-    ]
+[
+  {
+    "id": 1,
+    "projectName": "Summer Camp",
+    "titleImg" : "https://i.ibb.co/PCnsJ2S/Sports-Camp.png",
+    "img": [
+      "https://ibb.co/MNWbbQQ",
+      "https://ibb.co/MNWbbQQhttps://ibb.co/R9fDp59",
+      "https://ibb.co/MNWbbQQhttps://ibb.co/R9fDp59https://ibb.co/vmF0qZW",
+      "https://ibb.co/Vt5rfdD",
+      "https://ibb.co/KrNvGX8",
+      "https://ibb.co/tMYQPw0"
+    ],
+    "usedTec": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "ExpressJs",
+      "Tailwind",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "JWT",
+      "TanStack Query"
+    ],
+    "description": [
+      "Different routes for user, instructor and admin Dashboard.",
+      "Instructor can add a class or manage his own class.",
+      "Users can add a class to there selected class list.",
+      "Additionally, users can pay for a chosen class to be enrolled in that class.",
+      "Admin can manage users and added classes."
+    ],
+    "about": "A Summer Sports Camp Web Application."
+  },
+  {
+    "id": 2,
+    "projectName": "ChineseCuisine",
+    "titleImg" : "https://i.ibb.co/7SLDQLj/Chinese-Cusine.png",
+    "img": [
+      "https://ibb.co/wzsc8nz",
+      "https://ibb.co/L0svxZY",
+      "https://ibb.co/p03Mz3K",
+      "https://ibb.co/hgwGDgT"
+    ],
+    "usedTec": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "ExpressJs",
+      "Tailwind",
+      "Firebase",
+      "MongoDB",
+      "Node.js"
+    ],
+    "description": [
+      "This is a website about Chinese recipes and their famous chefs.",
+      "After login in user can see their favorite chef’s recipes.",
+      "User can rate any recipes and also can add as favorites."
+    ],
+    "about": "A Online Chinese Cuisine based Web Application."
+  },
+  {
+    "id": 3,
+    "projectName": "ToyTopia",
+    "titleImg" : "https://i.ibb.co/r6Hgh4H/toy.png",
+    "img": [
+      "https://ibb.co/BnD1K74",
+      "https://ibb.co/0YJMrHG",
+      "https://ibb.co/WtktF16",
+      "https://ibb.co/yPQZXYV",
+      "https://ibb.co/w4b9y2K",
+      "https://ibb.co/RzZH9DW"
+    ],
+    "usedTec": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "ExpressJs",
+      "Tailwind",
+      "Firebase",
+      "MongoDB",
+      "Node.js"
+    ],
+    "description": [
+      "This website is a toy action figure online shop.",
+      "A seller can add a toy and also can update his added toys.",
+      "Users can see all the toys that are added by sellers."
+    ],
+    "about": "A Web Application to sell Toy Action Figures."
   }
-  
+]

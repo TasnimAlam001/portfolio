@@ -1,0 +1,8 @@
+.myPhoto{
+    background-image: url("../../assets/myPhoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;  
+  }
+  
