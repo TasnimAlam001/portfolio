@@ -18,7 +18,7 @@ const MyProjects = () => {
             <h2 className="text-center text-5xl my-16">My Projects</h2>
 
             
-            <div className="w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 ">
+            <div className="w-5/6 md:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 ">
                 {
                     projects.map(p => <Project
                         key={p.id}

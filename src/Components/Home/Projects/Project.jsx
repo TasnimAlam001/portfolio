@@ -12,7 +12,7 @@ const Project = ({ project }) => {
         <div className="">
 
 
-            <div className="card card-compact w-[550px]  shadow-2xl bg-black text-white">
+            <div className="card card-compact md:w-[550px]  shadow-2xl bg-black text-white">
                 <h2 className="card-title mx-auto text-center text-3xl font-semibold py-6">{projectName}</h2>
                 <figure><img className="w-full" src={titleImg} alt="img" /></figure>
                 <div className="card-body ">
@@ -21,10 +21,10 @@ const Project = ({ project }) => {
                     <p className="italic font-semibold"><span className="font-bold text-2xl">Technologies: </span>  React.js, React Router, Tailwind CSS, DaisyUI, NodeJS, ExpressJS,
                         MongoDB</p>
                     <div>
-                        <span className="text-2xl font-bold">Description</span>
+                        <span className="text-2xl font-bold ">Description</span>
                         {
                             description.map(data => <>
-                                <ol>
+                                <ol className="list-disc ps-3">
                                     <li>{data}</li>
                                 </ol>
                             </>)

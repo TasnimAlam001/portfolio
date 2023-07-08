@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <div id="skills" className="bg-white opacity-90">
 
-            <div  className="w-3/4 mx-auto mt-32 p-10">
+            <div  className="md:w-3/4 mx-auto mt-32 p-10">
 
                 <h1 className="font-bold text-5xl">About My Skills</h1>
                 <p className="py-8">To Work For A Reputable Company Or Client Where I Can Use My Technical Skills To Achieve The Objective And Improve Performance. I want to apply my creativity, skills, and dedication to the organization`s or a client`s development.</p>
@@ -17,11 +17,11 @@ const Skills = () => {
 
                     <div>
 
-                        <div className="grid grid-cols-3 gap-3 text-center">
+                        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 text-center">
 
                             <div>
 
-                                <div className="radial-progress bg-black text-primary-content border-4 border-black text-4xl " style={{ "--value": 80 }}><FaHtml5></FaHtml5></div>
+                                <div className="radial-progress bg-black text-primary-content border-4 border-black  text-4xl " style={{ "--value": 80 }}><FaHtml5></FaHtml5></div>
                                 <h2>HTML</h2>
                             </div>
 
