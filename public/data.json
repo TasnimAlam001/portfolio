@@ -31,6 +31,9 @@
       "Additionally, users can pay for a chosen class to be enrolled in that class.",
       "Admin can manage users and added classes."
     ],
+    "liveLink": "https://assignment-12-8ca89.web.app/",
+    "ClintCode": "https://github.com/TasnimAlam001/SportsCmap_Clint",
+    "ServerCode": "https://github.com/TasnimAlam001/SportsCamp_Server",
     "about": "A Summer Sports Camp Web Application."
   },
   {
@@ -59,6 +62,9 @@
       "After login in user can see their favorite chef’s recipes.",
       "User can rate any recipes and also can add as favorites."
     ],
+    "liveLink": "https://auth-assignment-28725.web.app/",
+    "ClintCode": "https://github.com/TasnimAlam001/Chinese_Cuisine",
+    "ServerCode": "https://github.com/TasnimAlam001/Chinese_Cuisine_Server",
     "about": "A Online Chinese Cuisine based Web Application."
   },
   {
@@ -89,6 +95,9 @@
       "A seller can add a toy and also can update his added toys.",
       "Users can see all the toys that are added by sellers."
     ],
+    "liveLink": "https://toy-assignment-11-49948.web.app/",
+    "ClintCode": "https://github.com/TasnimAlam001/ToyTopia_Clint",
+    "ServerCode": "https://github.com/TasnimAlam001/ToyTopia_Server",
     "about": "A Web Application to sell Toy Action Figures."
   }
 ]

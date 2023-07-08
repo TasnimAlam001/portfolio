@@ -5,7 +5,7 @@ import c from '../../assets/C_Programming_Language.svg.png'
 
 const Skills = () => {
     return (
-        <div className="bg-white opacity-90">
+        <div id="skills" className="bg-white opacity-90">
 
             <div  className="w-3/4 mx-auto mt-32 p-10">
 
