@@ -23,9 +23,9 @@ const AboutMe = () => {
                     <Navbar></Navbar>
                 </div>
 
-                <div className='w-5/6 md:w-3/4 flex items-center justify-center m-auto md:col-span-2 rounded-xl bg-white shadow-2xl opacity-80'>
+                <div className='w-5/6 md:w-3/4 flex items-center justify-center md:col-span-2'>
                     <div >
-                        <div className="pt-10 px-4 md:px-10">
+                        <div className="pt-10 px-4 md:px-10 text-white">
                             <h2>HELLO, I AM <br /> <span className='font-bold text-3xl md:text-6xl'>Tasnim Alam</span> </h2>
                             <h4 className='text-2xl font-semibold py-3'>WEB DEVELOPER</h4>
                             <p>I am a Web Developer. My expertise includes  JavaScript, React.js, Node.js, HTML and CSS. I excel in adaptability, teamwork, and team leadership and have excellent communication abilities.</p>

@@ -9,7 +9,7 @@ import "./Main.css"
 
 const Main = () => {
     return (
-        <div className="myPhoto bg-fixed pt-32">
+        <div className="myPhoto bg-black bg-fixed pt-32">
             
             <AboutMe></AboutMe>
             <Skills></Skills>

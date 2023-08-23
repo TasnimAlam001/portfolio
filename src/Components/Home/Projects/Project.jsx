@@ -1,10 +1,9 @@
+import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
 const Project = ({ project }) => {
-    const { projectName, titleImg, about, description, liveLink, ClintCode, ServerCode } = project;
-
-
+    const { projectName, titleImg, about, description, liveLink, ClintCode, usedTec, ServerCode } = project;
 
 
 
@@ -12,15 +11,14 @@ const Project = ({ project }) => {
         <div className="">
 
 
-            <div className="card card-compact md:w-[550px]  shadow-2xl bg-black text-white">
+            <div className="card card-compact md:w-[550px]  bg-neutral  text-white shadow-xl shadow-white">
                 <h2 className="card-title mx-auto text-center text-3xl font-semibold py-6">{projectName}</h2>
                 <figure><img className="w-full" src={titleImg} alt="img" /></figure>
                 <div className="card-body ">
 
-                    <p className="text-2xl">{about}</p>
-                    <p className="italic font-semibold"><span className="font-bold text-2xl">Technologies: </span>  React.js, React Router, Tailwind CSS, DaisyUI, NodeJS, ExpressJS,
-                        MongoDB</p>
-                    <div>
+                    {/* <p className="text-2xl">{about}</p> */}
+                    <p className="italic font-semibold"><span className="font-bold text-2xl">Technologies: </span>{usedTec.join(" | ")}</p>
+                    {/* <div>
                         <span className="text-2xl font-bold ">Description</span>
                         {
                             description.map(data => <>
@@ -30,15 +28,19 @@ const Project = ({ project }) => {
                             </>)
                         }
 
+                    </div> */}
+                    <div className="card-actions justify-end">
+                        <button className="btn">Details <FaArrowRight></FaArrowRight></button>
                     </div>
+                    
 
 
-                    <div className="card-actions justify-center pt-4">
+                    {/* <div className="card-actions justify-center pt-4">
                         <Link to={liveLink} target="_blank"><button className="btn btn-outline text-white">Live Site</button> </Link>
                         <Link to={ClintCode} target="_blank"><button className="btn btn-outline text-white">Clint Site Code</button> </Link>
                         <Link to={ServerCode} target="_blank"><button className="btn btn-outline text-white">Server Site Code</button> </Link>
-                        
-                    </div>
+
+                    </div> */}
 
 
 
