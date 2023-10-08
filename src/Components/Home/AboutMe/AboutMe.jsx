@@ -16,10 +16,8 @@ const AboutMe = () => {
     return (
 
         <div id="aboutMe" >
-
             <div className="grid grid-cols-1 lg:grid-cols-4 h-full  ">
                 <div className="">
-
                     <Navbar></Navbar>
                 </div>
 

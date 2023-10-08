@@ -1,33 +1,60 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Project from "./Project";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import useProjects from "../../../hooks/useProjects";
 
 
 const MyProjects = () => {
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => setProjects(data))
-    }, [])
-
+    const [tabIndex, setTabIndex] = useState(0);
+    const [projects] = useProjects();
 
     return (
-        <div id="project" className="  mt-32 py-10">
+        <div id="project" className="w-2/3 mx-auto  mt-32 py-10">
             <h2 className="text-center text-5xl my-16 divider text-white">My Projects</h2>
+            <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="mt-10 text-center">
+                <TabList>
+                    <Tab>All</Tab>
+                    <Tab>Html</Tab>
+                    <Tab>CSs</Tab>
+                    <Tab>React</Tab>
+                    <Tab>MongoDb</Tab>
+                </TabList>
+                <TabPanel>
+                    <div className="grid grid-cols-1 mt-10 md:grid-cols-2 gap-16 ">
+                        {
+                            projects.map(p => <Project
+                                key={p._id}
+                                project={p}
 
-            
-            <div className="w-5/6 md:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 ">
-                {
-                    projects.map(p => <Project
-                        key={p.id}
-                        project={p}
+                            ></Project>)
+                        }
 
-                    ></Project>)
-                }
+                    </div>
 
-            </div>
+                </TabPanel>
+                <TabPanel>
+                    <p>Html</p>
+
+                </TabPanel>
+                <TabPanel>
+                    <p>Css</p>
+
+                </TabPanel>
+                <TabPanel>
+                    <p>react</p>
+
+                </TabPanel>
+                <TabPanel>
+                    MongoDb
+
+                </TabPanel>
+
+            </Tabs>
+
+
+
+
 
 
         </div>
