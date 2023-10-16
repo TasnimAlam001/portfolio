@@ -13,7 +13,7 @@ const Project = ({ project }) => {
                 <div className="card-body ">
                     <p className="italic font-semibold"><span className="font-bold text-2xl">Technologies: </span>{usedTec.join(" | ")}</p>
 
-                    <div className="card-actions justify-end">
+                    <div className="card-actions justify-end mt-5">
                         <Link to={`/projectDetails/${_id}`}><button className="btn">Details <FaArrowRight></FaArrowRight></button></Link>
                     </div>
 

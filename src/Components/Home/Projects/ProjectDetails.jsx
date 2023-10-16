@@ -78,7 +78,7 @@ const ProjectDetails = () => {
                     <div className="my-8 md:w-2/3 mx-auto">
                         <Carousel autoPlay={true} interval={1500} infiniteLoop>
                             {
-                                img.map(i => <div><img src={i} /></div>)
+                                img.map(i => <div key={i[0]}><img src={i} /></div>)
                             }
 
                         </Carousel>

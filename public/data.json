@@ -44,6 +44,47 @@
   },
   {
     "_id": 2,
+    "projectName": "Tasty Tidbits",
+    "titleImg" : "https://i.ibb.co/xqdBM3V/Screenshot-2023-10-16-231756.png",
+    "img": [
+      "https://i.ibb.co/xqdBM3V/Screenshot-2023-10-16-231756.pnghttps://i.ibb.co/93H9SdB/Screenshot-2023-10-16-232308.png",
+      "https://i.ibb.co/r0pgs00/Screenshot-2023-10-16-232525.png",
+      "https://i.ibb.co/zbGRZbG/Screenshot-2023-10-16-233643.png",
+      "https://i.ibb.co/YjBZGSk/Screenshot-2023-10-16-233715.png",
+      "https://i.ibb.co/Yp9xpkY/Screenshot-2023-10-16-233811.png",
+      "https://i.ibb.co/Gn2XWwV/Screenshot-2023-10-16-234024.png",
+      "https://i.ibb.co/N2rwcnJ/Screenshot-2023-10-16-234052.png",
+      "https://i.ibb.co/BVFkbm5/Screenshot-2023-10-16-234125.png"
+    ],
+    "usedTec": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "ExpressJs",
+      "Tailwind",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "JWT",
+      "TanStack Query"
+    ],
+    "description": [
+      "Different routes for user and admin",
+      "Admin can add a Food Items or manage all items.",
+      "Users can add foods to cart.",
+      "Additionally, users can pay for the chosen foods.",
+      "Admin can manage all users."
+    ],
+    "liveLink": "https://tasty-tidbits-6500f.web.app/",
+    "ClintCode": "https://github.com/TasnimAlam001/tasty-tidbits",
+    "ServerCode": "https://github.com/TasnimAlam001/tasty-tidbits-server",
+    "ClintCodeImg": "https://i.ibb.co/Rgn4Lt8/Screenshot-2023-10-08-214705.png",
+    "ServerCodeImg": "https://i.ibb.co/0FyFm5g/Screenshot-2023-10-08-214734.png",
+    "about": "A Online restaurant based Web Application."
+  },
+  {
+    "_id": 3,
     "projectName": "ChineseCuisine",
     "titleImg" : "https://i.ibb.co/7SLDQLj/Chinese-Cusine.png",
     "img": [
@@ -76,7 +117,7 @@
     "about": "A Online Chinese Cuisine based Web Application."
   },
   {
-    "_id": 3,
+    "_id": 4,
     "projectName": "ToyTopia",
     "titleImg" : "https://i.ibb.co/r6Hgh4H/toy.png",
     "img": [
