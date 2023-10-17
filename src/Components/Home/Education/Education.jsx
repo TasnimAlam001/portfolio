@@ -11,9 +11,9 @@ const Education = () => {
 
                 <div className="card md:w-96 bg-gray-800 shadow-xl mb-5">
                     <div className="card-body">
-                        <h2 className="card-title pb-5 font-bold">COMPLETED B.SC. IN COMPUTER SCIENCE & ENGINEERING</h2>
+                        <h2 className="card-title pb-5 font-bold">COMPLETED BSc IN <span className="text-red-400 text-3xl">CSE</span></h2>
                         <p className="text-2xl">Daffodil International University</p>
-                        <p>Result : CGPA 3.62</p>
+                        <p>Result : <span className="text-red-400 text-2xl">CGPA 3.62</span></p>
                     </div>
                 </div>
                 <div className="card md:w-96 bg-gray-800 shadow-xl mb-5">

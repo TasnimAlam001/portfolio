@@ -98,11 +98,9 @@
       "CSS",
       "JavaScript",
       "React",
-      "ExpressJs",
       "Tailwind",
-      "Firebase",
-      "MongoDB",
-      "Node.js"
+      "Firebase"
+      
     ],
     "description": [
       "This is a website about Chinese recipes and their famous chefs.",

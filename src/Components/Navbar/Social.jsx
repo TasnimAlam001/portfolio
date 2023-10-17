@@ -5,9 +5,9 @@ const Social = () => {
     return (
         <div className="flex">
             <div className=" md:fixed z-10 ">
-                <ul className="gap-3 md:gap-6 font-semibold p-2 rounded-3xl px-8 text-4xl flex md:flex-col items-center mx-auto">
+                <ul className="gap-3 md:gap-6 font-semibold p-2 rounded-3xl px-8 text-4xl flex md:flex-col items-center mx-auto text-white">
                     <li className=" p-3 rounded-xl tooltip tooltip-left" data-tip="Linkedin">
-                            <Link to="https://www.linkedin.com/in/tasnimalam001/" target="_blank"><FaLinkedin></FaLinkedin></Link>
+                            <Link to="https://www.linkedin.com/in/tasnimalam01/" target="_blank"><FaLinkedin></FaLinkedin></Link>
                       
                     </li> 
                     <li className=" p-3 rounded-xl tooltip tooltip-left" data-tip="Github"><Link to="https://github.com/TasnimAlam001" target="_blank"> <FaGithubSquare></FaGithubSquare> </Link> </li> 

@@ -13,9 +13,9 @@ const Comment = () => {
     return (
         <div className="w-5/6 mx-auto">
 
-            <h1 className="text-4xl text-center divider w-5/6 mx-auto font-bold py-12">Connect with me...</h1>
+            <h1 className="text-2xl lg:text-4xl text-center divider w-5/6 mx-auto font-bold py-12">Connect with me...</h1>
 
-            <div className="w-2/3">
+            <div className="lg:w-2/3">
                 <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                     <div className="form-control">
                         <label className="label">
@@ -40,7 +40,7 @@ const Comment = () => {
                         {errors.comment && <span className="text-red-600">Comment is required</span>}
                     </div>
 
-                    <div className="form-control mt-6 w-1/6 justify-end">
+                    <div className="form-control mt-6 lg:w-1/6 justify-end">
                         <input onClick={notify} className="btn btn-primary mb-2" type="submit" value="Comment" />
                         <ToastContainer />
 
